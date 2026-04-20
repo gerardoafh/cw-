@@ -187,6 +187,7 @@ export default function App() {
       <FacturasEmpresaModal
         isOpen={facturasEmpresaOpen}
         onClose={() => setFacturasEmpresaOpen(false)}
+        empresa={empresa}
       />
 
     </div>
